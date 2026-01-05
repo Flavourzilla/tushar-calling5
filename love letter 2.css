@@ -229,7 +229,10 @@
   }
 }
 body {
-  background-color: #f0e6f6; /* Soft lavender for a romantic, dreamy feel */
+  background-color: #f0e6f6; 
+  justify-content: center; /* horizontal center */
+  align-items: center;  
+  display: flex;/* vertical center *//* Soft lavender for a romantic, dreamy feel */
 }
 
 .envlope-wrapper {
@@ -264,4 +267,5 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
 
